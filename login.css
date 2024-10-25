@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: black;
+    
+}
+.cantainer {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items:center;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(250, 244, 244, 0.1), -5px -5px 10px rgba(249, 238, 238, 0.1);
+    
+}
+.cantainer h1{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+.cantainer input {
+    width: 70%;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cantainer input::placeholder{
+    font-size: 20px;
+}
+.cantainer p {
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+}
